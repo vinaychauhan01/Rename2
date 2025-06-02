@@ -18,7 +18,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Cluster0")
-    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://hello:hello@cluster0.vc2htx0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
@@ -39,7 +39,7 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hᴀɪ {} 👋,
+    START_TXT = """<b>Hɪ {} 👋,
 Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
 Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
 Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
@@ -48,12 +48,12 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 
     ABOUT_TXT = """<b>╭───────────⍟
 • ᴍy ɴᴀᴍᴇ : {}
-• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/sewxiy>ᴍɪᴋᴇʏ</a>
-• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/otakuflix_network>ᴏᴛᴀᴋᴜғʟɪx</a> 
-• ᴍᴏᴠɪᴇs : <a href=https://t.me/movieflix_original>ᴍᴏᴠɪᴇғʟɪx</a>
-• sᴇʀɪᴇs : <a href=https://t.me/seriesflix_original>sᴇʀɪᴇsғʟɪx</a>
-• ᴀɴɪᴍᴇ: <a href=https://t.me/anime_cruise_netflix>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>
-• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/weebzonex>ᴡᴇᴇʙᴢᴏɴᴇ</a>
+• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Doraemon_Nobita_Telugu>ᴍɪᴋᴇʏ</a>
+• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/Doraemon_Nobita_Telugu>Doraemon</a> 
+• ᴍᴏᴠɪᴇs : <a href=https://t.me/Doraemon_Nobita_Telugu>ᴍᴏᴠɪᴇғʟɪx</a>
+• sᴇʀɪᴇs : <a href=https://t.me/Doraemon_Nobita_Telugu>sᴇʀɪᴇsғʟɪx</a>
+• ᴀɴɪᴍᴇ: <a href=https://t.me/Doraemon_Nobita_Telugu>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>
+• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Doraemon_Nobita_Telugu>ᴡᴇᴇʙᴢᴏɴᴇ</a>
 • ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://codeflix_bots>ᴠᴘs</a>
 ╰───────────────⍟ """
 
@@ -78,7 +78,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
 
 
-<b>➜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:</b> <a href=https://t.me/otakuflix_network>ᴏᴛᴀᴋᴜғʟɪx</a>
+<b>➜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:</b> <a href=https://t.me/Doraemon_Nobita_Telugu>Doraemon</a>
 """
 
     SEND_METADATA = """
