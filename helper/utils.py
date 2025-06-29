@@ -35,8 +35,8 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
 
 def generate_progress_bar(percentage):
     return (
-        "".join(["⬢" for _ in range(math.floor(percentage / 5))])
-        + "".join(["⬡" for _ in range(20 - math.floor(percentage / 5))])
+                    ''.join(["█" for i in range(math.floor(percentage / 8.34))]),
+            ''.join(["░" for i in range(12 - math.floor(percentage / 8.34))]
     )
 
 
