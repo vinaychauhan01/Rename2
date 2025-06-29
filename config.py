@@ -91,7 +91,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 📥 
 """
 
-        PROGRESS_BAR = """\n
+    PROGRESS_BAR = """\n
 <b>📁 Size</b> : {1} | {2}
 <b>⏳️ Done</b> : {0}%
 <b>🚀 Speed</b> : {3}/s
