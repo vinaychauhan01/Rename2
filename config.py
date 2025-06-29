@@ -91,7 +91,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 📥 
 """
 
-   PROGRESS_BAR = """<b>\n
+    PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱➜
 ➜ 🗃️ sɪᴢᴇ: {1} | {2}
 ➜ ⏳️ ᴅᴏɴᴇ : {0}%
