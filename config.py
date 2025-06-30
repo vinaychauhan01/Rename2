@@ -91,11 +91,11 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 📥 
 """
 
-    PROGRESS_BAR = """<b>\n
+    PROGRESS_BAR = """<blockquote><b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱➜
 ➜ 🗃️ sɪᴢᴇ: {1} | {2}
 ➜ ⏳️ ᴅᴏɴᴇ : {0}%
 ➜ 🚀 sᴘᴇᴇᴅ: {3}/s
 ➜ ⏰️ ᴇᴛᴀ: {4}
 ╰━━━━━━━━━━━━━━━➜ 
- </b>"""
+ </b></blockquote>"""
