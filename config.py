@@ -7,8 +7,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "21518327")
-    API_HASH = os.environ.get("API_HASH", "e72f588b3e4763f01eecfc3c4aa7e8ac")
+    API_ID = os.environ.get("API_ID", "")
+    API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7877612758:AAETBEhLEdTJdruAJBDjQME5KecpPYsErrw") 
 
     # premium 4g renaming client
@@ -18,7 +18,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Rename")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://vinayjaat698:rename@rename.93x2fme.mongodb.net/?retryWrites=true&w=majority&appName=Rename")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
